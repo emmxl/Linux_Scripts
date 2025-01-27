@@ -19,10 +19,10 @@
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*G9QJE5NVTyP6zfdjFOFK0g.png)
 
-### Let us understand how we shall be usin these all branches and what will be the impact of each branch.
+### Understanding how to use this branches and their impact.
 
 At this point let us assume we already had a Master and Develop branch.
-1. To start working on a new feature, we will create a new feature branch feature/f1 out of Develop.
+1. To start working on a new feature, create a new feature branch feature/f1 out of Develop.
 2. Also a small feature started in parallel, we call that branch feature/f2.
 
 3. feature/f2 task is completed and it will be merged to develop and at the same time it has to be merged to feature/f1.
