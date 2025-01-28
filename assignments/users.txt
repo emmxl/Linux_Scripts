@@ -1,0 +1,3 @@
+username1:John Doe:group1,group2:yes
+username2:Jane Smith:group2,group3:no
+username3:Alice Johnson:group1,group3:yes

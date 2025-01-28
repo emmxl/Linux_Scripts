@@ -28,11 +28,11 @@ while IFS= read -r group; do
 done < "$GROUP_FILE"
 
 # Read users from users.txt
-while IFS=: read -r username groups sudo_privilege; do
+while IFS=: read -r username full_name groups sudo_privilege; do
     # Create user if they don't exist
     if ! id "$username" &> /dev/null; then
-        useradd -m -s /bin/bash "$username"
-        log_action "Created user: $username"
+        useradd -m -s /bin/bash -c "$full_name" "$username"
+        log_action "Created user: $username (Full Name: $full_name)"
         # Set a secure password (randomly generated)
         password=$(openssl rand -base64 12)
         echo "$username:$password" | chpasswd
@@ -59,14 +59,14 @@ done < "$USER_FILE"
 
 # Verify and display results
 echo "Users created:"
-cut -d: -f1 /etc/passwd | grep -f <(cut -d: -f1 "$USER_FILE")
+cut -d: -f1,5 /etc/passwd | grep -f <(cut -d: -f1 "$USER_FILE")
 
 echo -e "\nGroups created:"
 cut -d: -f1 /etc/group | grep -f <(cut -d: -f1 "$GROUP_FILE")
 
 echo -e "\nUser group membership:"
-while IFS=: read -r username groups _; do
-    echo "User: $username"
+while IFS=: read -r username full_name groups _; do
+    echo "User: $username (Full Name: $full_name)"
     groups "$username"
     echo
 done < "$USER_FILE"
