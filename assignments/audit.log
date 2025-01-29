@@ -1,0 +1,35 @@
+2025-01-28 11:30:59 - Error: Input files (users.txt or groups.txt) not found.
+2025-01-28 11:32:19 - Created user: username1 (Full Name: John Doe)
+2025-01-28 11:32:19 - Set password for user: username1
+2025-01-28 11:32:19 - Error: Group group1 does not exist for user username1
+2025-01-28 11:32:19 - Error: Group group2 does not exist for user username1
+2025-01-28 11:32:19 - Granted sudo privileges to user: username1
+2025-01-28 11:32:20 - Created user: username2 (Full Name: Jane Smith)
+2025-01-28 11:32:20 - Set password for user: username2
+2025-01-28 11:32:20 - Error: Group group2 does not exist for user username2
+2025-01-28 11:32:20 - Error: Group group3 does not exist for user username2
+2025-01-28 11:32:21 - Script execution completed.
+2025-01-28 11:36:36 - User already exists: username1
+2025-01-28 11:36:36 - Error: Group group1 does not exist for user username1
+2025-01-28 11:36:36 - Error: Group group2 does not exist for user username1
+2025-01-28 11:36:36 - Granted sudo privileges to user: username1
+2025-01-28 11:36:36 - User already exists: username2
+2025-01-28 11:36:36 - Error: Group group2 does not exist for user username2
+2025-01-28 11:36:36 - Error: Group group3 does not exist for user username2
+2025-01-28 11:36:36 - Script execution completed.
+2025-01-28 11:39:39 - User already exists: username1
+2025-01-28 11:39:39 - Error: Group group1 does not exist for user username1
+2025-01-28 11:39:39 - Error: Group group2 does not exist for user username1
+2025-01-28 11:39:39 - Granted sudo privileges to user: username1
+2025-01-28 11:39:39 - User already exists: username2
+2025-01-28 11:39:39 - Error: Group group2 does not exist for user username2
+2025-01-28 11:39:39 - Error: Group group3 does not exist for user username2
+2025-01-28 11:39:39 - Script execution completed.
+2025-01-28 11:48:36 - User already exists: username1
+2025-01-28 11:48:36 - Error: Group group1 does not exist for user username1
+2025-01-28 11:48:36 - Error: Group group2 does not exist for user username1
+2025-01-28 11:48:36 - Granted sudo privileges to user: username1
+2025-01-28 11:48:36 - User already exists: username2
+2025-01-28 11:48:36 - Error: Group group2 does not exist for user username2
+2025-01-28 11:48:36 - Error: Group group3 does not exist for user username2
+2025-01-28 11:48:36 - Script execution completed.
