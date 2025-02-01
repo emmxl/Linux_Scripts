@@ -1,0 +1,8 @@
+user1:Emmanuel Warri:dev_team,admins:yes
+user2:Jane Smith:dev_team:no
+user2:Shey Didier:dev_team,admins:yes
+user3:Jane Clo:dev_team:no
+user4:John Carlson:dev_team,admins:yes
+user5:Nfor Smith:dev_team:no
+user6:Nformi Doe:dev_team,admins:yes
+user7:Bambo Smith:dev_team:no

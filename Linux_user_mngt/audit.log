@@ -1,0 +1,33 @@
+2025-02-01 09:46:52 - Processing user: user1 (Emmanuel Warri)
+2025-02-01 09:46:52 - Created user: user1 (Emmanuel Warri) and set password (Stored in passwords.txt)
+2025-02-01 09:46:52 - Added user user1 to group: dev_team
+2025-02-01 09:46:52 - Added user user1 to group: admins
+2025-02-01 09:46:52 - Granted sudo to: user1
+2025-02-01 09:46:52 - Processing user: user2 (Jane Smith)
+2025-02-01 09:46:52 - Created user: user2 (Jane Smith) and set password (Stored in passwords.txt)
+2025-02-01 09:46:52 - Added user user2 to group: dev_team
+2025-02-01 09:46:52 - Processing user: user2 (Shey Didier)
+2025-02-01 09:46:52 - Created user: user2 (Shey Didier) and set password (Stored in passwords.txt)
+2025-02-01 09:46:52 - Added user user2 to group: dev_team
+2025-02-01 09:46:52 - Added user user2 to group: admins
+2025-02-01 09:46:52 - Granted sudo to: user2
+2025-02-01 09:46:52 - Processing user: user3 (Jane Clo)
+2025-02-01 09:46:52 - Created user: user3 (Jane Clo) and set password (Stored in passwords.txt)
+2025-02-01 09:46:52 - Added user user3 to group: dev_team
+2025-02-01 09:46:52 - Processing user: user4 (John Carlson)
+2025-02-01 09:46:52 - Created user: user4 (John Carlson) and set password (Stored in passwords.txt)
+2025-02-01 09:46:52 - Added user user4 to group: dev_team
+2025-02-01 09:46:52 - Added user user4 to group: admins
+2025-02-01 09:46:52 - Granted sudo to: user4
+2025-02-01 09:46:52 - Processing user: user5 (Nfor Smith)
+2025-02-01 09:46:53 - Created user: user5 (Nfor Smith) and set password (Stored in passwords.txt)
+2025-02-01 09:46:53 - Added user user5 to group: dev_team
+2025-02-01 09:46:53 - Processing user: user6 (Nformi Doe)
+2025-02-01 09:46:53 - Created user: user6 (Nformi Doe) and set password (Stored in passwords.txt)
+2025-02-01 09:46:53 - Added user user6 to group: dev_team
+2025-02-01 09:46:53 - Added user user6 to group: admins
+2025-02-01 09:46:53 - Granted sudo to: user6
+2025-02-01 09:46:53 - Processing user: user7 (Bambo Smith)
+2025-02-01 09:46:53 - Created user: user7 (Bambo Smith) and set password (Stored in passwords.txt)
+2025-02-01 09:46:53 - Added user user7 to group: dev_team
+2025-02-01 09:46:53 - Script execution completed.
