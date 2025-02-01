@@ -72,7 +72,7 @@ chmod +x user_setup.sh
 ### Step 3: Run the script with `sudo` privileges
 To execute the script, run:
 ```bash
-sudo ./user_setup.sh
+sudo ./user_group_manager.sh
 ```
 
 ### Step 4: Review the logs
@@ -94,6 +94,3 @@ sudo ./user_setup.sh
 - The script will automatically create any missing groups and group IDs if they are not provided in `groups.txt`.
 - If a user already exists, the script will delete the old user and recreate them with the new configuration.
 - Passwords are stored in `passwords.txt` and should be handled securely.
-
-## License
-This script is provided as-is. Use it at your own risk.
